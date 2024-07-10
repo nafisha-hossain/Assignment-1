@@ -197,18 +197,18 @@ main {
 
 }
 
-#card-box
-{
+#card-box {
   width: 773px;
   margin: 50px auto;
 }
-.card-container
-{
+
+.card-container {
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
 }
-.card{
+
+.card {
   max-width: 243px;
   display: flex;
   flex-direction: column;
@@ -216,14 +216,57 @@ main {
   justify-content: center;
   align-items: center;
 }
-.card>a{
-  color:rgb(13, 19, 33);
+
+.card>a {
+  color: rgb(13, 19, 33);
 }
-.card.image-box
-{
+
+.card.image-box {
   width: 243px;
 }
-.card.image-box img 
-{
+
+.card.image-box img {
   width: 100%;
+}
+
+.foot {
+  background-image: url(/assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200 px;
+  height: 314px;
+  left: 150px;
+  right: 150px;
+  top: 4752px;
+  bottom: 500px;
+  border-radius: 16px;
+  gap: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 64px 48px 64px 48px;
+  /* margin: auto auto auto auto; */
+
+}
+
+.foot>h1,
+.foot>p {
+  color: white;
+  
+}
+
+.info {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+}
+
+.init {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px 17px 20px;
 }
