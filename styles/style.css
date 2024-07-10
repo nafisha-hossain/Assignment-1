@@ -196,3 +196,34 @@ main {
   background-color: white;
 
 }
+
+#card-box
+{
+  width: 773px;
+  margin: 50px auto;
+}
+.card-container
+{
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  max-width: 243px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card>a{
+  color:rgb(13, 19, 33);
+}
+.card.image-box
+{
+  width: 243px;
+}
+.card.image-box img 
+{
+  width: 100%;
+}
